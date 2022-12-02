@@ -5,13 +5,13 @@ $input = file_get_contents("../Input/Day2.txt");
 $inputArray = explode(PHP_EOL, $input);
 
 /**
- * A = Rock
- * B = Paper
- * C = Scissors
+ * A = Rock = 1
+ * B = Paper = 2
+ * C = Scissors = 3
  *
- * X = Rock
- * Y = Paper
- * Z = Scissors
+ * X = Lose = 0
+ * Y = Draw = 3
+ * Z = Win = 6
  */
 
 print_r($inputArray);
