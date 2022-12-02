@@ -2,7 +2,7 @@
 
 //Part 1
 
-$input = file_get_contents("../Input/Day1/Puzzle1.txt");
+$input = file_get_contents("../Input/Day1.txt");
 
 $inputArray = explode(PHP_EOL, $input);
 
