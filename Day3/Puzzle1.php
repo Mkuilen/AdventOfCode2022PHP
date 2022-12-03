@@ -18,7 +18,7 @@ foreach ($inputArray as $ruckSack) {
     $secondHalf = array_chunk($charArray, ceil(count($charArray) / 2));
     for ($i = 0; $i < sizeof($charArray) / 2; $i++) {
         $key = array_search($charArray[$i], $secondHalf[1]);
-        if($key){
+        if ($key) {
             break;
         }
     }
