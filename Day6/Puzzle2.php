@@ -6,7 +6,7 @@ $orderArray = str_split($order);
 $queue = new SplQueue();
 
 foreach($orderArray as $key => $char){
-    while($queue->count() != 4){
+    while($queue->count() != 14){
         $queue->enqueue($char);
     }
     $queueArray = iterator_to_array($queue);
